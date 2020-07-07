@@ -1,0 +1,55 @@
+/* common css */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+.my-btn {
+    background: linear-gradient(#21B573, #85cead);
+    border-radius: 33px;
+    border: none;
+    color: #fff;
+}
+.my-btn:hover {
+    transition:  3s;
+    background: linear-gradient(#85cead, #21B573)  
+}
+
+/* header-area */
+.header-area {
+    background-color: #f0fff0;
+}
+.navbar {
+    margin-bottom: 50px;
+}
+.navbar-brand img {
+    width: 200px;
+    height: 60px;
+}
+.banner-content {
+    padding: 60px 40px;
+}
+.banner-content small {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FD511A;
+    padding-bottom: 15px;
+    display: inline-block;
+}
+.banner-content h3 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 70px;
+
+}
+.banner-content .green {
+    color: #21B573;
+}
+.banner-content p {
+    font-size: 16px;
+    line-height: 36px;
+    color: #6C6B6B;
+}
+.banner-img img {
+    width: 100%;
+}
