@@ -65,6 +65,10 @@ body {
     border-radius: 10px;
     padding: 40px 10px 20px 10px;
 }
+.categories-content:hover {
+    background: #FFFFFF;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
 .categories-content img {
     width: 66px;
     height: 85px;
@@ -79,10 +83,6 @@ body {
     font-size: 16px;
     line-height: 24px;
     color: #585859;
-}
-.categories-content.active {
-    background: #FFFFFF;
-    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
 }
 
 /* online-courses */
@@ -150,4 +150,64 @@ body {
     line-height: 30px;
     text-align: center;
     padding-top: 20px;
+}
+
+/* footer-area */
+.footer-area {
+    background: #282531;
+    padding-top: 50px;
+}
+.footer-area p {
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer-area ul li a {
+    font-size: 16px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+.footer-area ul li:first-child a {
+    font-weight: 700;
+}
+.footer-area .copyright {
+    font-size: 16px;
+    line-height: 30px;
+    color: #CDCDCD;
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 20px;
+}
+.footer-area .copyright a{
+    color: #CDCDCD;
+}
+
+/* media query */
+
+@media only screen and (max-width: 992px) {
+    .banner-content h3 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .banner-img img {
+        padding-top: 70px;
+    }
+    .categories-content {
+        padding: 20px 10px;
+    }
+    .categories-content h4 {
+        font-size: 18px;
+        line-height: 18px;
+        padding: 15px 8px;
+    }
+    .date-area img,
+    .seat-area img {
+        width: 12px;
+        height: 12px;
+    }
+    .carousel-content p {
+        font-size: 12px;
+        line-height: 14px;
+        padding-top: 12px;
+    }
 }
