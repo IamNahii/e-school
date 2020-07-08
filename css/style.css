@@ -129,3 +129,25 @@ body {
     width: 24px;
     height: 24px;
 }
+
+/* testimonial-area */
+.testimonial-area{
+    margin-bottom: 100px;
+}
+.testimonial-area h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    color: #000000;
+    padding: 20px;
+    text-align: center;
+}
+.carousel-content {
+    padding: 15px 25px 60px 25px;
+}
+.carousel-content p {
+    font-size: 16px;
+    line-height: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
