@@ -4,7 +4,7 @@ body {
 }
 .my-btn {
     background: linear-gradient(#21B573, #85cead);
-    border-radius: 33px;
+    border-radius: 30px;
     border: none;
     color: #fff;
 }
@@ -55,7 +55,7 @@ body {
     width: 100%;
 }
 
-/* course area */
+/* categories area */
 .categories-area {
     text-align: center;
     margin-bottom: 100px;
@@ -83,4 +83,49 @@ body {
 .categories-content.active {
     background: #FFFFFF;
     box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+/* online-courses */
+.online-courses {
+    margin-bottom: 100px;
+}
+.online-courses h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    color: #413960;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+.online-courses .card {
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.1);
+    border-radius: 18px;
+    border: none;
+    
+}
+.online-courses .card .card-img-top {
+    padding: 20px 15px 0px 15px;
+}
+.online-courses .card h5 {
+    font-size: 24px;
+    line-height: 36px;
+    color: #413960;
+    padding: 0;
+}
+.online-courses .card p {
+    font-size: 16px;
+    line-height: 24px;
+    color: #585859;
+}
+.card-footer {
+    border: none;
+    background-color: rgba(0,0,0,0);
+}
+.date-area img,
+.seat-area img {
+    width: 24px;
+    height: 24px;
 }
